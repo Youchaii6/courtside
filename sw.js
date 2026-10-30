@@ -1,5 +1,5 @@
 'use strict';
-const CACHE='courtside-app-v7';
+const CACHE='courtside-app-v8';
 const BASE=new URL('./',self.location.href);
 const SHELL=['./','index.html','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png'];
 self.addEventListener('install',event=>{
